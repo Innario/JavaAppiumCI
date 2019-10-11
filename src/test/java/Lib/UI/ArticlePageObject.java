@@ -175,4 +175,12 @@ abstract public class ArticlePageObject extends MainPageObject {
         }
     }
 
+    public void closePopUpAuthorization() {
+        this.waitForElementAndClick(
+                CLOSE_AUTHORIZATION_BUTTON,
+                "Can not find element 'X'",
+                5
+        );
+    }
+
 }

@@ -10,7 +10,8 @@ public class iOSArticlePageObject extends ArticlePageObject {
             TITLE = "id:Java (programming Language)",
             FOOTER = "xpath://View page in browser",
             OPTIONS_ADD_TO_MY_LIST_BUTTON = "id:Save for later",
-            CLOSE_ARTICLE_BUTTON = "id:Back";
+            CLOSE_ARTICLE_BUTTON = "id:Back",
+            CLOSE_AUTHORIZATION_BUTTON = "xpath://XCUIElementTypeButton[@name=\"places auth close\"]";
 
 
 
